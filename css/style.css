@@ -21,6 +21,18 @@ ol > li:before{
     content: '';
     position: absolute; top: 0; left: 0;
     color: white;}
+    ul{
+        list-style: none;
+    }
+    ul > li{
+        padding-left: 24px;
+        position: relative;
+        margin: 10px;
+    }
+    ul > li:before{
+        content: '';
+        position: absolute; top: 0; left: 0;
+        color: #23296C;}
 .three{
     height: 900px;
     background-color: #23296C;
@@ -80,7 +92,23 @@ ol > li:before{
   height: 35px;
 }
 .bino{
-  width: 78px;
-  height: 21px;
+  width: 100px;
+  height: 50px;
+bottom: 20px
   left: 20px;
+}
+.withfoto{  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  font-size: 24px;
+  font-weight: normal;
+  color: #23296C;
+  padding: 40px;}
+.bank{
+  width: 500px;
+  margin-right: 60px;
 }
