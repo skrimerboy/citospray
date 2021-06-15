@@ -293,8 +293,8 @@ p{
   width: 1440px;
 }
 .black{
-  color: white;
-  font-size: 24px;
+  color: #23296C;
+  font-size: 12px;
 }
 .right{
   width: 600px;
@@ -311,7 +311,4 @@ p{
   text-align:center;
   color:  #23296C;
   padding:30px;
-}
-.new{
-
 }
