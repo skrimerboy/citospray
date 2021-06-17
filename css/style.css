@@ -88,6 +88,7 @@ h2{
   margin: 1em 0;
 }
 .three{
+    height: 900px;
     background-color: #23296C;
   background: radial-gradient(44.79% 64.07% at 89.69% 91.94%, #0B54F1 0%, #1F3183 51.56%, #23296C 83.33%), #23296C;
     height: 600px;
@@ -148,167 +149,24 @@ h2{
   flex-wrap: nowrap;
   flex-direction: row;
   align-items: center;
-  background-color: #23296C;
 }
-.fire{
-  width: 375px;
-}
-h3{
-  font-size: 1em;
-  line-height: 1,5;
-  color: #23296C;
-
-}
-.from{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  align-items: left;
-
-
-}
-.poni{
-  color:#23296C;
-  font-size: 1em;
-}
-.will{
-  padding: 5px;
-}
-.titlee{
-  font-size:25px;
-  font-weight: bold;
-  color: #23296C;
-  padding:10px 30px;
-}
-.column{
-    list-style: none;
-    padding-left: 10px;
-}
-ul > li{
-    padding-left: 24px;
-    font-size: 1em;
-    color: #23296C;
-    font-style: medium;
-    position: relative;
-    margin: 10px;
-
-}
-ul > li:before{
-    content: '✔';
-    position: absolute; top: 0; left: 0;
-    color: #23296C;}
-.image{
-  width: 9em;
-  right: 0px;
-  bottom: 0px;
-}
-.row{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-items: flex-end
-}
-.black
-{
-  width: 40em;
-  margin: 10px 0;
-  color: grey;
-}
-.six{
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-items: center;
-}
-.face{
-  margin: 5px 15px;
-  width: 100px;
-}
-h4{
-  font-size: 3em;
-  color: #B3D2DE;
-}
-.sixtext{
-  padding: 5px;
-  font-size: 1em;
-  color: #23296C;
-}
-.sprey{
-  width: 120px;
-}
-.yellow{
-  padding: 1em;
-  width: 100%;
-color:#B3D2DE;
-  background-color: #F6C142;
-  font-size: 1em;
-  text-align: center;
-}
-.split2{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-items: center;
-
-}
-p{
-  color: #23296C;
-  font-size:1em;
-
-}
-.twoheader{
+.header{
   width:100%;
+  height: 150px;
+  background-color: #23296C ;
+    }
+.first{
   padding: 30px;
   display: flex;
-  flex-direction: row;
-  flex-wrap:nowrap;
-  justify-content:space-between;
-  align-items: stretch;
-  align-content:stretch;
-}
-.mese{
-  font-size: 25px;
-  color: #23296C;
-  font-weight: bold ;
-  margin-right: 20px;
-  margin-top: 20px;
-}
-.seven{
-  background-color: #23296C;
-  height: 420px;
-}
-.table{
-  width: 375px;
-}
-.black{
-  color: #23296C;
-  font-size: 12px;
-}
 
-.eight{
-  background-color: #4E4E4E;
+    }
+.cito{
+  width: 193px;
+  height: 35px;
 }
-.firsttitle{
-  text-align:center;
-  color:grey;
-  font-size: 23px;
-}
-.twotitle{
-  text-align:center;
-  color:  #23296C;
-  padding:30px;
-}
-.danger{
-  color: #23296C;
-  padding: 5px 0;
-}
-.whitee{
-  color: white
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
 }
